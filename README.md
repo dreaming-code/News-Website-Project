@@ -1,0 +1,1 @@
+Global Pulse is a modern news aggregation platform that provides users with real-time updates on the latest news from various categories, including politics, business, technology, health, sports, and entertainment. The platform is designed to be user-friendly and fast ensuring that readers can easily navigate and access the most relevant news articles.
