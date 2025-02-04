@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>News App</title>
+</head>
+<body>
+    <div class="lop">
+    <nav class="navbar" id="navbar">
+        <div id="home">
+            <span><h2><a href="#home" class="head1">Global Pulse 🌍 </a></h2></span>
+        </div>
+        <a href="#home" id="cf" class="head1"><div>Home</div></a>
+        <a href="#abt" id="at" class="head1"><div onclick="document.querySelector('.cont20').classList.remove('hide')">About Us</div></a>
+     <a href="#last" id="contact" class="head1"><div>Contact Us</div></a>
+     <a href="#log" id="login" class="head1"><div onclick="document.querySelector('.op').classList.remove('hide')">Sign Up/Login</div></a>
+    </nav>
+    <header id="head2">
+        <div class="odp">
+        <span onclick="onNavItemClick('hard news')"><a href="#cards-container2" class="as" >Hard News</a></span>
+        <span class="as4" onclick="onNavItemClick('soft news')"><a href="#cards-container2" class="as"  >Soft News</a></span>
+        <span class="as4" onclick="onNavItemClick('investigative')"><a href="#cards-container2" class="as" >Investigative</a></span>
+        <span class="as4" onclick="onNavItemClick('politics')"><a href="#cards-container2" class="as" >Politics</a></span>
+        <span class="as4" onclick="onNavItemClick('business')"><a href="#cards-container2" class="as" >Business</a></span>
+        <span class="as4" onclick="onNavItemClick('technology')"><a href="#cards-container2" class="as" >Technology</a></span>
+        <span class="as4" onclick="onNavItemClick('health')"><a href="#cards-container2"class="as" >Health</a></span>
+        <span class="as4" onclick="onNavItemClick('sports')"><a href="#cards-container2" class="as" >Sports</a></span>
+        <input type="text" placeholder="ipl" class="as2 inp2" id="search-text">
+        <span class="as3" id="search-button"><a href="#cards-container2"><i class="fa-solid fa-magnifying-glass"></i></a></span>
+    </div>
+    </header>
+</div>
+<div class="cont1">
+    <div class="cont2">
+        <h1 id="topnews">Top Breaking News</h1>
+        <div class="cards-container1 container1 flex"  id="cards-container1">
+        </div>
+    </div>
+    <div class="cont3">
+        <h1 id="topnews">Bollywood Masala</h1>
+        <div class="cards-container10 container10 flex"  id="cards-container10">
+        </div>
+    </div>
+</div>
+    <main id="cards-container2">
+        <h1 class="qwe hide ">Article</h1>
+        <div class="cards-container container flex" id="cards-container">
+            
+        </div>
+    </main>
+    <div class="op hide">
+    <div class="opq" id="log">
+        <form id="form1">
+            <h1 id="op2">WELCOME BACK !</h1>
+            <label class="label1">Username : </label>
+            <input type="text" placeholder="miya44274" class="inp2" id="username">
+            <label class="label1">Email-ID : </label>
+            <input type="text" placeholder="afsgdf@gmail.com" class="inp2">
+            <label class="label1">Password : </label>
+            <input type="text" placeholder="abc12.@" class="inp2">
+            <a href="#" id="oj">Forgot Password ? </a>
+            <button id="sub"><a href="#navbar" id="formsubbut">Submit</a></button>
+            <h1 id="op2">Global Pulse </h1>
+            <h1>Your Window to the World</h1>
+        </form>
+    </div>
+</div>
+<div class="cont20" id="abt">
+    <h1 class="qwe2">About Us</h1>
+    <h1 class="qwe3">Global Pulse 🌍</h1>
+     <div class="description">
+        <p>
+            Welcome to Global Pulse, your one-stop destination for accurate, timely, and engaging news from around the world. Our mission is to deliver well-researched news stories across multiple categories, ensuring you stay informed about the latest developments in politics, business, technology, health, sports, entertainment, and more.</p>
+        <p><span>Why Choose Global Pulse?</span><br>
+            <span>✔ Reliable & Trustworthy : </span>We prioritize fact-checked journalism to combat misinformation.<br>
+            <span>✔ Comprehensive Coverage : </span>From breaking news to in-depth investigative reports, we bring you stories that matter.<br>
+            <span>✔ User-Centric Experience : </span>Our intuitive platform ensures seamless navigation across different news categories.<br>
+            <span>✔ Global Perspective : </span> Get insights from across the world, tailored for local and international audiences.</p>
+     </div>
+</div>
+    <div id="last" class="cont9">
+        <div class="asdp">
+            <h1 id="oa">Contact Us</h1>
+            <div class="contacts">
+                <div class="fline">
+            <p class="lasp"> Address : </p>
+            <p class="laspart"> 551ka/628, Omnagar,</p>
+            <br>
+            <p class="laspart"> Alambagh, Lucknow.</p>
+        </div>
+        <div class="sline">
+            <p class="lasp">Phone No:</p>
+            <p class="laspart io">223-556-345</p>
+            <br>
+            <p class="laspart io">6890763456</p>
+        </div>
+        </div>
+             <div class="3line">
+            <p class="lasp">Social Media</p>
+            <span class="laspart ih"><i class="fa-brands fa-instagram" style="color: #ee2bb0;"></i></span>
+            <span class="laspart ih"><i class="fa-brands fa-facebook" style="color: #0a55d6;"></i></span>
+            <span class="laspart ih"><i class="fa-brands fa-twitter" style="color: #107e77;"></i></span>
+            <span class="laspart ih"><i class="fa-brands fa-linkedin" style="color: #3f77a2;"></i></span>
+               </div>
+        </div>
+    </div>
+    <footer class="lastu">
+        <div class="lasttop"><a href="#" id="lastop">Back to Top</a></div>
+            <div class="invbox">
+            <div class="boxl1 boc">
+                <h2>Get to Know Us</h2>
+                <div class="listop">
+                    <a href="#" class="dfg">About Gobal Pulse</a>
+                    <a href="#" class="dfg">Careers</a>
+                    <a href="#" class="dfg">Press Releases</a>
+                    <a href="#" class="dfg">Gobal Pulse Science</a>
+                </div>
+            </div>
+            <div class="boxl2 boc">
+                <h2>Connect With Us</h2>
+                <div class="listop">
+                    <a href="#" class="dfg">Facebook</a>
+                    <a href="#" class="dfg">Twitter</a>
+                    <a href="#" class="dfg">Instagram</a>
+                </div>
+            </div>
+            <div class="boxl3 boc3">
+                <h2>Make Money With Us</h2>
+                <div class="listop">
+                    <a href="#" class="dfg">Lorem, ipsum dolor.</a>
+                    <a href="#" class="dfg">Lorem ipsum dolor sit amet.</a>
+                    <a href="#" class="dfg">Lorem ipsum dolor sit amet.</a>
+                    <a href="#" class="dfg">Lorem, ipsum dolor.</a>
+                    <a href="#" class="dfg">Lorem ipsum dolor sit amet.</a>
+                    <a href="#" class="dfg">Lorem ipsum dolor sit amet.</a>
+                    <a href="#" class="dfg">Lorem ipsum dolor sit amet.</a>
+                    <a href="#" class="dfg">Lorem ipsum dolor sit amet.</a>
+                </div>
+            </div>
+
+            <div class="boxl4 boc4">
+                <h2>Let Us Help You</h2>
+                <div class="listop">
+                    <a href="#" class="dfg">Lorem, ipsum.</a>
+                    <a href="#" class="dfg">Lorem, ipsum.</a>
+                    <a href="#" class="dfg">Lorem ipsum dolor sit.</a>
+                    <a href="#" class="dfg">Lorem, ipsum dolor.</a>
+                    <a href="#" class="dfg">Lorem ipsum dolor sit amet.</a>
+                    <a href="#" class="dfg">Lorem ipsum dolor sit amet.</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="end">
+            <div class="endbox1">
+                <a href="#" class="endboxlink">Aopkns</a>
+                <p>Lorem, ipsum dolor. </p>
+                <p>Lorem, ipsum.</p>
+                <br>
+                <a href="#" class="endboxlink">Sghgd</a>
+                <p>lorem.</p>
+                <p>Lorem ipsum dolor sit. </p>
+            </div>
+            <div class="endbox2">
+                <a href="#" class="endboxlink">Lorem, ipsum dolor.</a>
+                <p>Lorem, ipsum.</p>
+                <p>Lorem, ipsum dolor.</p>
+                <br>
+                <a href="#" class="endboxlink">Lorem, ipsum.</a>
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem ipsum dolor sit.</p>
+            </div>
+            <div class="endbox2">
+                <a href="#" class="endboxlink">Asdf</a>
+                <p>lorem. </p>
+                <p>Lorem, ipsum.</p>
+                <br>
+                <a href="#" class="endboxlink">Lorem, ipsum.</a>
+                <p>Lorem, ipsum jfd.</p>
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+            <div class="endbox2">
+                <a href="#" class="endboxlink">Lorem.</a>
+                <p>Lorem, ipsum. </p>
+                <p>Lorem, ipsum dolor.</p>
+                <br>
+                <a href="#" class="endboxlink">Lorem, ipsum dolor.</a>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+        </div>
+        <div class="secondlast">
+            <a href="#" class="endboxlink2">Conditions of Use & Sale</a>
+            <a href="#" class="endboxlink1">Privacy Notice</a>
+            <a href="#" class="endboxlink1">Interest Based Ads</a>
+            <div class="lastline">© 2025, GlobalPulse.com, Inc. or its affiliates</div>
+        </div>
+    </footer>
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="news-title">This is the Title</h3>
+                <h6 class="news-source" id="news-source">End Gadget 26/08/2023</h6>
+                <p class="news-desc" id="news-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe quis voluptatum quisquam vitae doloremque facilis molestias quae ratione cumque!</p>
+            </div>
+        </div>
+    </template>
+
+    <template id="template-news-card2">
+        <div class="card2 flex">
+            <div class="card-header2">
+                <img src="https://via.placeholder.com/100x100" alt="news-image" id="news-imag">
+            </div>
+            <div class="card-content2">
+                <h3 id="news-titl">This is the Title</h3>
+                <h6 class="news-sourc" id="news-sourc">End Gadget 26/08/2023</h6>
+                <p class="news-des" id="news-des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe quis voluptatum quisquam vitae doloremque facilis molestias quae ratione cumque!</p>
+            </div>
+        </div>
+    </template>
+
+    <template id="template-news-card3">
+        <div class="card5 flex">
+            <div class="card-content3">
+                <h3 id="news-tite">This is the Title</h3>
+                <h6 class="news-soure" id="news-soure">End Gadget 26/08/2023</h6>
+                <p class="news-dec" id="news-dec">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae saepe quis voluptatum quisquam vitae doloremque facilis molestias quae ratione cumque!</p>
+            </div>
+            <div class="card-header3">
+                <img src="https://via.placeholder.com/400x200" alt="news-image" id="news-imge">
+            </div>
+        </div>
+    </template>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
